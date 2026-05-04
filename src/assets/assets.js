@@ -115,7 +115,7 @@ export const plant_list = [
   {
     id: 3,
     name: "ZZ Plant",
-    image: ZZ_Plant,
+    image: ZZ_plant,
     price: 100,
     desc: "Shiny, waxy leaves that thrive on neglect and low light.",
     category: "Indoor Plants",
