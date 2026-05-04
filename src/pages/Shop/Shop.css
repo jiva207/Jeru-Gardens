@@ -217,9 +217,6 @@
 
 /* Mobile Phones (480px) */
 @media (max-width: 480px) {
-    .nav-bg-shop {
-        height: 100px;
-    }
 
     .shop-display-right h1 {
         font-size: 22px;
