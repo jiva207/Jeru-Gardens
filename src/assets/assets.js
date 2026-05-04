@@ -10,7 +10,7 @@ import Herbs_Kitchen_Plants from "./Herbs_Kitchen_Plants.png"
 
 import Snake_plant from "./Snake_plant.jpg"
 import Peace_lily from "./Peace_lily.jpg"
-import ZZ_plant from "./ZZ_plant.jpg"
+import ZZ_plant from "./ZZ_Plant.jpg"
 import Spider_Plant from "./Spider_Plant.jpg"
 import Hibiscus_Plant from "./Hibiscus_Plant.jpg"
 import Bougainvillea_Flower from "./Bougainvillea_Flower.jpg"
@@ -115,7 +115,7 @@ export const plant_list = [
   {
     id: 3,
     name: "ZZ Plant",
-    image: ZZ_plant,
+    image: ZZ_Plant,
     price: 100,
     desc: "Shiny, waxy leaves that thrive on neglect and low light.",
     category: "Indoor Plants",

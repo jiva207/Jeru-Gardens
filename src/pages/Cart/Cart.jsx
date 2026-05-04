@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 
 import Snake_plant from "../../assets/Snake_plant.jpg"
 import Peace_lily from "../../assets/Peace_lily.jpg"
-import ZZ_plant from "../../assets/ZZ_plant.jpg"
+import ZZ_plant from "../../assets/ZZ_Plant.jpg"
 import Spider_Plant from "../../assets/Spider_Plant.jpg"
 import Hibiscus_Plant from "../../assets/Hibiscus_Plant.jpg"
 import Bougainvillea_Flower from "../../assets/Bougainvillea_Flower.jpg"
