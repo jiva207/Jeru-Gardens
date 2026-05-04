@@ -1,0 +1,67 @@
+.plant-display {
+    margin-top: 30px;
+    padding: 2%;
+}
+
+.plant-display h1 {
+    color: #262626;
+    font-weight: 500;
+    font-size: max(2vw, 24px);
+}
+
+.plant-display-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+}
+
+/* Laptops (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .plant-display-list {
+        gap: 20px;
+        row-gap: 40px;
+        justify-content: center;
+    }
+}
+
+/* Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+    .plant-display h1 {
+        text-align: center;
+        font-size: 22px;
+    }
+    
+    .plant-display-list {
+        gap: 15px;
+        row-gap: 30px;
+        justify-content: space-around;
+    }
+    
+    .plant-display-list > div {
+        flex: 0 0 calc(50% - 15px); 
+        min-width: 150px;
+    }
+}
+
+/* Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    .plant-display {
+        padding: 5% 15px;
+    }
+
+    .plant-display h1 {
+        font-size: 20px;
+    }
+
+    .plant-display-list {
+        gap: 10px;
+        row-gap: 25px;
+    }
+
+    .plant-display-list > div {
+        flex: 0 0 100%;
+    }
+}
